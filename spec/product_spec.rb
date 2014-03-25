@@ -6,5 +6,5 @@ describe Product do
     new_product.should be_an_instance_of Product
   end
 
-  it { should have_one :receipt}
+  it { should have_many :transactions }
 end
